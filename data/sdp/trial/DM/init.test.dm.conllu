@@ -1,0 +1,756 @@
+﻿# format = sdp
+# sent_id = 20018036
+# text = All came from Cray Research .
+1	All	all	DT	DT	_	2	ARG1	2:ARG1	_
+2	came	come	VBD	VBD	_	0	root	0:root	_
+3	from	from	IN	IN	_	2	orphan	2:orphan	_
+4	Cray	_generic_proper_ne_	NNP	NNP	_	2	orphan	2:orphan	_
+5	Research	_generic_proper_ne_	NNP	NNP	_	3	ARG2	3:ARG2|4:compound	_
+6	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20018037
+# text = Cray Computer , which currently employs 241 people , said it expects a work force of 450 by the end of 1990 .
+1	Cray	_generic_proper_ne_	NNP	NNP	_	0	root	0:root	_
+2	Computer	_generic_proper_ne_	NNP	NNP	_	1	compound	1:compound|6:ARG1|10:ARG1	_
+3	,	_	,	,	_	1	orphan	1:orphan	_
+4	which	which	WDT	WDT	_	1	orphan	1:orphan	_
+5	currently	currently	RB	RB	_	1	orphan	1:orphan	_
+6	employs	employ	VBZ	VBZ	_	5	ARG1	5:ARG1	_
+7	241	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+8	people	people	NNS	NNS	_	6	ARG2	6:ARG2|7:ARG1	_
+9	,	_	,	,	_	1	orphan	1:orphan	_
+10	said	say	VBD	VBD	_	1	orphan	1:orphan	_
+11	it	it	PRP	PRP	_	12	ARG1	12:ARG1	_
+12	expects	expect	VBZ	VBZ	_	10	ARG2	10:ARG2	_
+13	a	a	DT	DT	_	1	orphan	1:orphan	_
+14	work	work	NN	NN	_	1	orphan	1:orphan	_
+15	force	force	NN	NN	_	12	ARG2	12:ARG2|13:BV|14:compound|16:ARG1	_
+16	of	of	IN	IN	_	1	orphan	1:orphan	_
+17	450	_generic_card_ne_	CD	CD	_	16	ARG2	16:ARG2	_
+18	by	by	IN	IN	_	1	orphan	1:orphan	_
+19	the	the	DT	DT	_	1	orphan	1:orphan	_
+20	end	end	NN	NN	_	18	ARG2	18:ARG2|19:BV	_
+21	of	of	IN	IN	_	1	orphan	1:orphan	_
+22	1990	_generic_year_ne_	CD	CD	_	20	ARG1	20:ARG1	_
+23	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019001
+# text = John R. Stevens , 49 years old , was named senior executive vice president and chief operating officer , both new positions .
+1	John	John	NNP	NNP	_	0	root	0:root	_
+2	R.	R.	NNP	NNP	_	1	compound	1:compound	_
+3	Stevens	Stevens	NNP	NNP	_	2	compound	2:compound|7:ARG1|10:ARG3	_
+4	,	_	,	,	_	1	orphan	1:orphan	_
+5	49	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+6	years	year	NNS	NNS	_	5	ARG1	5:ARG1	_
+7	old	old	JJ	JJ	_	6	measure	6:measure	_
+8	,	_	,	,	_	1	orphan	1:orphan	_
+9	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+10	named	name	VBN	VBN	_	1	orphan	1:orphan	_
+11	senior	senior	JJ	JJ	_	1	orphan	1:orphan	_
+12	executive	executive	JJ	JJ	_	1	orphan	1:orphan	_
+13	vice	vice	NN	NN	_	1	orphan	1:orphan	_
+14	president	president	NN	NN	_	10	ARG2	10:ARG2|11:ARG1|12:compound|13:compound	_
+15	and	and	CC	CC	_	1	orphan	1:orphan	_
+16	chief	chief	JJ	JJ	_	1	orphan	1:orphan	_
+17	operating	operate	NN	NN	_	1	orphan	1:orphan	_
+18	officer	officer	NN	NN	_	14	_and_c	14:_and_c|16:compound|17:compound	_
+19	,	_	,	,	_	1	orphan	1:orphan	_
+20	both	both	DT	DT	_	1	orphan	1:orphan	_
+21	new	new	JJ	JJ	_	1	orphan	1:orphan	_
+22	positions	position	NNS	NNS	_	10	conj	20:ARG1|21:ARG1	_
+23	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019002
+# text = He will continue to report to Donald Pardus , president and chief executive officer .
+1	He	he	PRP	PRP	_	5	ARG1	5:ARG1	_
+2	will	will	MD	MD	_	0	root	0:root	_
+3	continue	continue	VB	VB	_	2	orphan	2:orphan	_
+4	to	to	TO	TO	_	2	orphan	2:orphan	_
+5	report	report	VB	VB	_	3	ARG1	3:ARG1|6:ARG1	_
+6	to	to	TO	TO	_	2	orphan	2:orphan	_
+7	Donald	Donald	NNP	NNP	_	2	orphan	2:orphan	_
+8	Pardus	_generic_proper_ne_	NNP	NNP	_	5	ARG2	7:compound|10:appos	_
+9	,	_	,	,	_	2	orphan	2:orphan	_
+10	president	president	NN	NN	_	2	orphan	2:orphan|8:conj	_
+11	and	and	CC	CC	_	2	orphan	2:orphan	_
+12	chief	chief	JJ	JJ	_	2	orphan	2:orphan	_
+13	executive	executive	JJ	JJ	_	2	orphan	2:orphan	_
+14	officer	officer	NN	NN	_	10	_and_c	10:_and_c|12:compound|13:compound	_
+15	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20019003
+# text = Mr. Stevens was executive vice president of this electric-utility holding company .
+1	Mr.	Mr.	NNP	NNP	_	0	root	0:root	_
+2	Stevens	Stevens	NNP	NNP	_	1	compound	1:compound|3:ARG1	_
+3	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+4	executive	executive	JJ	JJ	_	1	orphan	1:orphan	_
+5	vice	vice	NN	NN	_	1	orphan	1:orphan	_
+6	president	president	NN	NN	_	3	ARG2	3:ARG2|4:compound|5:compound|7:ARG1	_
+7	of	of	IN	IN	_	1	orphan	1:orphan	_
+8	this	this	DT	DT	_	1	orphan	1:orphan	_
+9	electric-utility	utility	JJ	JJ	_	1	orphan	1:orphan	_
+10	holding	holding	NN	NN	_	1	orphan	1:orphan	_
+11	company	company	NN	NN	_	7	ARG2	6:ARG1|7:ARG2|8:BV|9:compound|10:compound	_
+12	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019004
+# text = Arthur A. Hatch , 59 , was named executive vice president of the company .
+1	Arthur	Arthur	NNP	NNP	_	0	root	0:root	_
+2	A.	A.	NNP	NNP	_	1	compound	1:compound	_
+3	Hatch	_generic_proper_ne_	NNP	NNP	_	2	compound	2:compound|5:appos|8:ARG3	_
+4	,	_	,	,	_	1	orphan	1:orphan	_
+5	59	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+6	,	_	,	,	_	1	orphan	1:orphan	_
+7	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+8	named	name	VBN	VBN	_	1	orphan	1:orphan	_
+9	executive	executive	JJ	JJ	_	1	orphan	1:orphan	_
+10	vice	vice	NN	NN	_	1	orphan	1:orphan	_
+11	president	president	NN	NN	_	8	ARG2	8:ARG2|9:compound|10:compound	_
+12	of	of	IN	IN	_	1	orphan	1:orphan	_
+13	the	the	DT	DT	_	1	orphan	1:orphan	_
+14	company	company	NN	NN	_	11	ARG1	11:ARG1|13:BV	_
+15	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019005
+# text = He was previously president of the company ’s Eastern Edison Co. unit .
+1	He	he	PRP	PRP	_	2	ARG1	2:ARG1	_
+2	was	was	VBD	VBD	_	0	root	0:root	_
+3	previously	previously	RB	RB	_	2	orphan	2:orphan	_
+4	president	president	NN	NN	_	2	ARG2	2:ARG2	_
+5	of	of	IN	IN	_	2	orphan	2:orphan	_
+6	the	the	DT	DT	_	2	orphan	2:orphan	_
+7	company	company	NN	NN	_	6	BV	6:BV	_
+8	’s	’s	VBZ	VBZ	_	2	orphan	2:orphan	_
+9	Eastern	_generic_proper_ne_	NNP	NNP	_	2	orphan	2:orphan	_
+10	Edison	Edison	NNP	NNP	_	9	compound	9:compound	_
+11	Co.	co.	NNP	NNP	_	10	compound	10:compound	_
+12	unit	unit	NN	NN	_	5	ARG2	4:ARG1|7:poss|11:compound	_
+13	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20019006
+# text = John D. Carney , 45 , was named to succeed Mr. Hatch as president of Eastern Edison .
+1	John	John	NNP	NNP	_	0	root	0:root	_
+2	D.	D.	NNP	NNP	_	1	compound	1:compound	_
+3	Carney	_generic_proper_ne_	NNP	NNP	_	2	compound	2:compound|5:appos|8:ARG2|10:ARG1	_
+4	,	_	,	,	_	1	orphan	1:orphan	_
+5	45	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+6	,	_	,	,	_	1	orphan	1:orphan	_
+7	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+8	named	name	VBN	VBN	_	9	ARG1	1:orphan|9:ARG1	_
+9	to	to	TO	TO	_	1	orphan	1:orphan	_
+10	succeed	succeed	VB	VB	_	9	ARG2	9:ARG2|13:ARG1	_
+11	Mr.	Mr.	NNP	NNP	_	1	orphan	1:orphan	_
+12	Hatch	_generic_proper_ne_	NNP	NNP	_	10	ARG2	10:ARG2|11:compound	_
+13	as	as	IN	IN	_	1	orphan	1:orphan	_
+14	president	president	NN	NN	_	13	ARG2	13:ARG2	_
+15	of	of	IN	IN	_	1	orphan	1:orphan	_
+16	Eastern	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+17	Edison	Edison	NNP	NNP	_	14	ARG1	14:ARG1|16:compound	_
+18	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019007
+# text = Previously he was vice president of Eastern Edison .
+1	Previously	previously	RB	RB	_	0	root	0:root	_
+2	he	he	PRP	PRP	_	3	ARG1	3:ARG1	_
+3	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+4	vice	vice	NN	NN	_	1	orphan	1:orphan	_
+5	president	president	NN	NN	_	3	ARG2	3:ARG2|4:compound|6:ARG1	_
+6	of	of	IN	IN	_	1	orphan	1:orphan	_
+7	Eastern	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+8	Edison	Edison	NNP	NNP	_	6	ARG2	5:ARG1|6:ARG2|7:compound	_
+9	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019008
+# text = Robert P. Tassinari , 63 , was named senior vice president of Eastern Utilities .
+1	Robert	Robert	NNP	NNP	_	0	root	0:root	_
+2	P.	P.	NNP	NNP	_	1	compound	1:compound	_
+3	Tassinari	_generic_proper_ne_	NNP	NNP	_	2	compound	2:compound|5:appos|8:ARG3	_
+4	,	_	,	,	_	1	orphan	1:orphan	_
+5	63	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+6	,	_	,	,	_	1	orphan	1:orphan	_
+7	was	was	VBD	VBD	_	1	orphan	1:orphan	_
+8	named	name	VBN	VBN	_	1	orphan	1:orphan	_
+9	senior	senior	JJ	JJ	_	1	orphan	1:orphan	_
+10	vice	vice	NN	NN	_	1	orphan	1:orphan	_
+11	president	president	NN	NN	_	8	ARG2	8:ARG2|9:ARG1|10:compound	_
+12	of	of	IN	IN	_	1	orphan	1:orphan	_
+13	Eastern	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+14	Utilities	_generic_proper_ne_	NNPS	NNPS	_	11	ARG1	11:ARG1|13:compound	_
+15	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20019009
+# text = He was previously vice president .
+1	He	he	PRP	PRP	_	2	ARG1	2:ARG1	_
+2	was	was	VBD	VBD	_	0	root	0:root	_
+3	previously	previously	RB	RB	_	2	orphan	2:orphan	_
+4	vice	vice	NN	NN	_	2	orphan	2:orphan	_
+5	president	president	NN	NN	_	2	ARG2	2:ARG2|4:compound	_
+6	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20020001
+# text = The U.S. , claiming some success in its trade diplomacy , removed South Korea , Taiwan and Saudi Arabia from a list of countries it is closely watching for allegedly failing to honor U.S. patents , copyrights and other intellectual-property rights .
+1	The	the	DT	DT	_	0	root	0:root	_
+2	U.S.	U.S.	NNP	NNP	_	1	BV	1:BV|4:ARG1|12:ARG1	_
+3	,	_	,	,	_	1	orphan	1:orphan	_
+4	claiming	claim	VBG	VBG	_	1	orphan	1:orphan	_
+5	some	some	DT	DT	_	1	orphan	1:orphan	_
+6	success	success	NN	NN	_	4	ARG2	4:ARG2|5:BV|7:ARG1	_
+7	in	in	IN	IN	_	1	orphan	1:orphan	_
+8	its	its	PRP$	PRP$	_	1	orphan	1:orphan	_
+9	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+10	diplomacy	_generic_nn_	NN	NN	_	7	ARG2	7:ARG2|8:poss|9:compound	_
+11	,	_	,	,	_	1	orphan	1:orphan	_
+12	removed	remove	VBD	VBD	_	1	orphan	_	_
+13	South	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+14	Korea	Korea	NNP	NNP	_	12	ARG2	12:ARG2|13:compound	_
+15	,	_	,	,	_	1	orphan	1:orphan	_
+16	Taiwan	Taiwan	NNP	NNP	_	14	conj	14:conj	_
+17	and	and	CC	CC	_	1	orphan	1:orphan	_
+18	Saudi	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan|16:_and_c	_
+19	Arabia	Arabia	NNP	NNP	_	16	_and_c	16:_and_c|18:compound	_
+20	from	from	IN	IN	_	12	ARG3	1:orphan	_
+21	a	a	DT	DT	_	1	orphan	1:orphan	_
+22	list	list	NN	NN	_	20	ARG2	20:ARG2|21:BV	_
+23	of	of	IN	IN	_	1	orphan	1:orphan	_
+24	countries	country	NNS	NNS	_	22	ARG1	22:ARG1|28:ARG2	_
+25	it	it	PRP	PRP	_	28	ARG1	28:ARG1	_
+26	is	is	VBZ	VBZ	_	1	orphan	1:orphan	_
+27	closely	closely	RB	RB	_	1	orphan	1:orphan	_
+28	watching	watch	VBG	VBG	_	27	ARG1	27:ARG1|30:ARG1	_
+29	for	for	IN	IN	_	1	orphan	1:orphan	_
+30	allegedly	allegedly	RB	RB	_	1	orphan	1:orphan	_
+31	failing	fail	VBG	VBG	_	29	ARG2	27:ARG1|30:ARG1	_
+32	to	to	TO	TO	_	1	orphan	1:orphan	_
+33	honor	honor	VB	VB	_	31	ARG1	31:ARG1	_
+34	U.S.	U.S.	NNP	NNP	_	1	orphan	1:orphan	_
+35	patents	patent	NNS	NNS	_	33	ARG2	33:ARG2|34:compound	_
+36	,	_	,	,	_	1	orphan	1:orphan	_
+37	copyrights	copyright	NNS	NNS	_	35	conj	14:conj|35:conj	_
+38	and	and	CC	CC	_	1	orphan	1:orphan	_
+39	other	other	JJ	JJ	_	1	orphan	1:orphan	_
+40	intellectual-property	property	JJ	JJ	_	1	orphan	1:orphan	_
+41	rights	right	NNS	NNS	_	37	_and_c	37:_and_c|39:ARG1|40:compound	_
+42	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020003
+# text = Under the new U.S. trade law , those countries could face accelerated unfair-trade investigations and stiff trade sanctions if they do n’t improve their protection of intellectual property by next spring .
+1	Under	under	IN	IN	_	0	root	0:root	_
+2	the	the	DT	DT	_	1	orphan	1:orphan	_
+3	new	new	JJ	JJ	_	1	orphan	1:orphan	_
+4	U.S.	U.S.	NNP	NNP	_	1	orphan	1:orphan	_
+5	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+6	law	law	NN	NN	_	1	ARG2	1:ARG2|2:BV|3:ARG1|4:compound|5:compound	_
+7	,	_	,	,	_	1	orphan	1:orphan	_
+8	those	those	DT	DT	_	1	orphan	1:orphan	_
+9	countries	country	NNS	NNS	_	8	BV	8:BV|11:ARG1	_
+10	could	could	MD	MD	_	19	ARG1	19:ARG1	_
+11	face	face	VB	VB	_	1	ARG1	1:ARG1|10:ARG1	_
+12	accelerated	accelerate	VBN	VBN	_	1	orphan	1:orphan	_
+13	unfair-trade	trade	JJ	JJ	_	1	orphan	1:orphan	_
+14	investigations	investigation	NNS	NNS	_	11	ARG2	11:ARG2|12:ARG2|13:compound	_
+15	and	and	CC	CC	_	1	orphan	1:orphan	_
+16	stiff	stiff	JJ	JJ	_	1	orphan	1:orphan	_
+17	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+18	sanctions	sanction	NNS	NNS	_	14	_and_c	14:_and_c|16:ARG1|17:compound	_
+19	if	if	IN	IN	_	1	orphan	1:orphan	_
+20	they	they	PRP	PRP	_	23	ARG1	23:ARG1	_
+21	do	don’t	VBP	VBP	_	22	neg	1:orphan	_
+22	n’t	don’t	RB	RB	_	19	ARG2	19:ARG2	_
+23	improve	improve	VB	VB	_	22	ARG1	22:neg|29:ARG1	_
+24	their	their	PRP$	PRP$	_	1	orphan	1:orphan	_
+25	protection	protection	NN	NN	_	23	ARG2	23:ARG2|24:poss|26:ARG1	_
+26	of	of	IN	IN	_	1	orphan	1:orphan	_
+27	intellectual	intellectual	JJ	JJ	_	1	orphan	1:orphan	_
+28	property	property	NN	NN	_	25	ARG1	25:ARG1|26:ARG2|27:ARG1	_
+29	by	by	IN	IN	_	1	orphan	1:orphan	_
+30	next	next	JJ	JJ	_	1	orphan	1:orphan	_
+31	spring	spring	NN	NN	_	29	ARG2	29:ARG2|30:ARG1	_
+32	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020004
+# text = Mrs. Hills said many of the 25 countries that she placed under varying degrees of scrutiny have made “ genuine progress ” on this touchy issue .
+1	Mrs.	Mrs.	NNP	NNP	_	0	root	0:root	_
+2	Hills	Hills	NNP	NNP	_	1	compound	1:compound|3:ARG1	_
+3	said	say	VBD	VBD	_	1	orphan	1:orphan	_
+4	many	many	JJ	JJ	_	18	ARG1	18:ARG1	_
+5	of	of	IN	IN	_	1	orphan	1:orphan	_
+6	the	the	DT	DT	_	1	orphan	1:orphan	_
+7	25	_generic_card_ne_	CD	CD	_	1	orphan	1:orphan	_
+8	countries	country	NNS	NNS	_	4	part	4:part|6:BV|7:ARG1|11:ARG2	_
+9	that	that	IN	IN	_	1	orphan	1:orphan	_
+10	she	she	PRP	PRP	_	11	ARG1	11:ARG1	_
+11	placed	place	VBD	VBD	_	1	orphan	12:ARG1	_
+12	under	under	IN	IN	_	11	ARG3	1:orphan	_
+13	varying	vary	VBG	VBG	_	1	orphan	1:orphan	_
+14	degrees	degree	NNS	NNS	_	12	ARG2	12:ARG2|13:ARG1|15:ARG1	_
+15	of	of	IN	IN	_	1	orphan	1:orphan	_
+16	scrutiny	scrutiny	NN	NN	_	14	ARG1	15:ARG2	_
+17	have	have	VBP	VBP	_	1	orphan	1:orphan	_
+18	made	make	VBN	VBN	_	3	ARG2	3:ARG2	_
+19	“	_	``	``	_	1	orphan	1:orphan	_
+20	genuine	genuine	JJ	JJ	_	1	orphan	1:orphan	_
+21	progress	progress	NN	NN	_	18	ARG2	18:ARG2|20:ARG1|23:ARG1	_
+22	”	_	''	''	_	1	orphan	1:orphan	_
+23	on	on	IN	IN	_	1	orphan	1:orphan	_
+24	this	this	DT	DT	_	1	orphan	1:orphan	_
+25	touchy	_generic_jj_	JJ	JJ	_	1	orphan	1:orphan	_
+26	issue	issue	NN	NN	_	23	ARG2	23:ARG2|24:BV|25:ARG1	_
+27	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020006
+# text = U.S. trade negotiators argue that countries with inadequate protections for intellectual-property rights could be hurting themselves by discouraging their own scientists and authors and by deterring U.S. high-technology firms from investing or marketing their best products there .
+1	U.S.	U.S.	NNP	NNP	_	0	root	0:root	_
+2	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+3	negotiators	_generic_nns_	NNS	NNS	_	1	compound	1:compound|2:compound|4:ARG1	_
+4	argue	argue	VBP	VBP	_	1	orphan	1:orphan	_
+5	that	that	IN	IN	_	1	orphan	1:orphan	_
+6	countries	country	NNS	NNS	_	7	ARG1	7:ARG1|10:ARG1|15:ARG1	_
+7	with	with	IN	IN	_	1	orphan	1:orphan	_
+8	inadequate	inadequate	JJ	JJ	_	1	orphan	1:orphan	_
+9	protections	protection	NNS	NNS	_	7	ARG2	7:ARG2|8:ARG1|10:ARG1	_
+10	for	for	IN	IN	_	1	orphan	1:orphan	_
+11	intellectual-property	property	JJ	JJ	_	1	orphan	1:orphan	_
+12	rights	right	NNS	NNS	_	10	ARG2	10:ARG2|11:compound	_
+13	could	could	MD	MD	_	4	ARG2	4:ARG2	_
+14	be	be	VB	VB	_	1	orphan	1:orphan	_
+15	hurting	hurt	VBG	VBG	_	13	ARG1	13:ARG1|17:ARG1|25:ARG1	_
+16	themselves	themselves	PRP	PRP	_	15	ARG2	15:ARG2	_
+17	by	by	IN	IN	_	1	orphan	1:orphan	_
+18	discouraging	discourage	VBG	VBG	_	17	ARG2	17:ARG2|25:ARG1	_
+19	their	their	PRP$	PRP$	_	1	orphan	1:orphan	_
+20	own	own	JJ	JJ	_	1	orphan	1:orphan	_
+21	scientists	scientist	NNS	NNS	_	18	ARG2	18:ARG2|19:poss|20:ARG1	_
+22	and	and	CC	CC	_	1	orphan	1:orphan	_
+23	authors	author	NNS	NNS	_	21	_and_c	21:_and_c	_
+24	and	and	CC	CC	_	1	orphan	1:orphan	_
+25	by	by	IN	IN	_	17	_and_c	17:_and_c	_
+26	deterring	deter	VBG	VBG	_	25	ARG2	25:ARG2|30:ARG1	_
+27	U.S.	U.S.	NNP	NNP	_	1	orphan	1:orphan	_
+28	high-technology	technology	NN	NN	_	27	compound	1:orphan	_
+29	firms	firm	NNS	NNS	_	26	ARG2	26:ARG2|27:compound|28:compound|31:ARG1|33:ARG1	_
+30	from	from	IN	IN	_	1	orphan	1:orphan	_
+31	investing	invest	VBG	VBG	_	26	ARG3	30:ARG2|37:loc	_
+32	or	or	CC	CC	_	1	orphan	1:orphan	_
+33	marketing	market	VBG	VBG	_	31	_or_c	18:_or_c|31:_or_c|37:loc	_
+34	their	their	PRP$	PRP$	_	1	orphan	1:orphan	_
+35	best	best	JJS	JJS	_	1	orphan	1:orphan	_
+36	products	product	NNS	NNS	_	31	ARG2	31:ARG2|33:ARG2|34:poss|35:ARG1	_
+37	there	there	RB	RB	_	1	orphan	1:orphan	_
+38	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020007
+# text = Mrs. Hills lauded South Korea for creating an intellectual-property task force and special enforcement teams of police officers and prosecutors trained to pursue movie and book pirates .
+1	Mrs.	Mrs.	NNP	NNP	_	0	root	0:root	_
+2	Hills	Hills	NNP	NNP	_	1	compound	1:compound|3:ARG1	_
+3	lauded	laud	VBD	VBD	_	1	orphan	1:orphan	_
+4	South	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+5	Korea	Korea	NNP	NNP	_	3	ARG2	3:ARG2|4:compound	_
+6	for	for	IN	IN	_	1	orphan	1:orphan	_
+7	creating	create	VBG	VBG	_	6	ARG2	6:ARG2	_
+8	an	an	DT	DT	_	1	orphan	1:orphan	_
+9	intellectual-property	property	JJ	JJ	_	1	orphan	1:orphan	_
+10	task	task	NN	NN	_	1	orphan	1:orphan	_
+11	force	force	NN	NN	_	7	ARG2	7:ARG2|8:BV|9:ARG1|10:compound	_
+12	and	and	CC	CC	_	1	orphan	1:orphan	_
+13	special	special	JJ	JJ	_	1	orphan	1:orphan	_
+14	enforcement	enforcement	NN	NN	_	1	orphan	1:orphan	_
+15	teams	team	NNS	NNS	_	11	_and_c	11:_and_c|13:ARG1|14:compound	_
+16	of	of	IN	IN	_	1	orphan	1:orphan	_
+17	police	police	NN	NN	_	1	orphan	1:orphan	_
+18	officers	officer	NNS	NNS	_	15	ARG1	16:ARG2|17:compound|21:ARG2	_
+19	and	and	CC	CC	_	1	orphan	1:orphan	_
+20	prosecutors	prosecutor	NNS	NNS	_	18	_and_c	18:_and_c	_
+21	trained	train	VBN	VBN	_	1	orphan	_	_
+22	to	to	TO	TO	_	1	orphan	1:orphan	_
+23	pursue	pursue	VB	VB	_	21	ARG3	_	_
+24	movie	movie	NN	NN	_	1	orphan	1:orphan	_
+25	and	and	CC	CC	_	1	orphan	1:orphan	_
+26	book	book	NN	NN	_	24	_and_c	24:_and_c	_
+27	pirates	pirate	NNS	NNS	_	23	ARG2	23:ARG2|24:compound	_
+28	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020008
+# text = Seoul also has instituted effective search-and-seizure procedures to aid these teams , she said .
+1	Seoul	_generic_proper_ne_	NNP	NNP	_	4	ARG1	4:ARG1	_
+2	also	also	RB	RB	_	14	ARG2	14:ARG2	_
+3	has	has	VBZ	VBZ	_	0	root	0:root	_
+4	instituted	institute	VBN	VBN	_	8	ARG1	2:ARG1|8:ARG1	_
+5	effective	effective	JJ	JJ	_	3	orphan	3:orphan	_
+6	search-and-seizure	seizure	JJ	JJ	_	3	orphan	3:orphan	_
+7	procedures	procedure	NNS	NNS	_	4	ARG2	4:ARG2|5:ARG1|6:compound	_
+8	to	to	TO	TO	_	2	ARG1	3:orphan	_
+9	aid	aid	VB	VB	_	8	ARG2	_	_
+10	these	these	DT	DT	_	3	orphan	3:orphan	_
+11	teams	team	NNS	NNS	_	9	ARG2	9:ARG2|10:BV	_
+12	,	_	,	,	_	3	orphan	3:orphan	_
+13	she	she	PRP	PRP	_	14	ARG1	14:ARG1	_
+14	said	say	VBD	VBD	_	3	orphan	3:orphan	_
+15	.	_	.	.	_	3	orphan	3:orphan	_
+
+# format = sdp
+# sent_id = 20020009
+# text = Taiwan has improved its standing with the U.S. by initialing a bilateral copyright agreement , amending its trademark law and introducing legislation to protect foreign movie producers from unauthorized showings of their films .
+1	Taiwan	Taiwan	NNP	NNP	_	3	ARG1	3:ARG1	_
+2	has	has	VBZ	VBZ	_	0	root	0:root	_
+3	improved	improve	VBN	VBN	_	2	orphan	6:ARG1|9:ARG1|16:subord	_
+4	its	its	PRP$	PRP$	_	2	orphan	2:orphan	_
+5	standing	standing	NN	NN	_	3	ARG2	3:ARG2|4:poss|6:ARG1	_
+6	with	with	IN	IN	_	2	orphan	2:orphan	_
+7	the	the	DT	DT	_	2	orphan	2:orphan	_
+8	U.S.	U.S.	NNP	NNP	_	6	ARG2	6:ARG2|7:BV	_
+9	by	by	IN	IN	_	2	orphan	2:orphan	_
+10	initialing	initial	VBG	VBG	_	9	ARG2	9:ARG2	_
+11	a	a	DT	DT	_	2	orphan	2:orphan	_
+12	bilateral	bilateral	JJ	JJ	_	2	orphan	2:orphan	_
+13	copyright	copyright	NN	NN	_	2	orphan	2:orphan	_
+14	agreement	agreement	NN	NN	_	10	ARG2	10:ARG2|11:BV|12:ARG1|13:compound	_
+15	,	_	,	,	_	2	orphan	2:orphan	_
+16	amending	amend	VBG	VBG	_	10	conj	_	_
+17	its	its	PRP$	PRP$	_	2	orphan	2:orphan	_
+18	trademark	trademark	NN	NN	_	2	orphan	2:orphan	_
+19	law	law	NN	NN	_	16	ARG2	16:ARG2|17:poss|18:compound	_
+20	and	and	CC	CC	_	2	orphan	2:orphan	_
+21	introducing	introduce	VBG	VBG	_	16	_and_c	16:_and_c	_
+22	legislation	legislation	NN	NN	_	21	ARG2	21:ARG2	_
+23	to	to	TO	TO	_	2	orphan	2:orphan	_
+24	protect	protect	VB	VB	_	22	ARG1	28:ARG1	_
+25	foreign	foreign	JJ	JJ	_	2	orphan	2:orphan	_
+26	movie	movie	NN	NN	_	2	orphan	2:orphan	_
+27	producers	producer	NNS	NNS	_	24	ARG2	24:ARG2|25:ARG1|26:compound	_
+28	from	from	IN	IN	_	2	orphan	2:orphan	_
+29	unauthorized	authorize	JJ	JJ	_	2	orphan	2:orphan	_
+30	showings	showing	NNS	NNS	_	28	ARG2	28:ARG2|29:ARG2|31:ARG1	_
+31	of	of	IN	IN	_	2	orphan	2:orphan	_
+32	their	their	PRP$	PRP$	_	2	orphan	2:orphan	_
+33	films	film	NNS	NNS	_	30	ARG1	31:ARG2|32:poss	_
+34	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20020010
+# text = That measure could compel Taipei ’s growing number of small video-viewing parlors to pay movie producers for showing their films .
+1	That	that	DT	DT	_	0	root	0:root	_
+2	measure	measure	NN	NN	_	1	BV	1:BV|4:ARG1	_
+3	could	could	MD	MD	_	1	orphan	1:orphan	_
+4	compel	compel	VB	VB	_	3	ARG1	3:ARG1	_
+5	Taipei	_generic_proper_ne_	NNP	NNP	_	1	orphan	1:orphan	_
+6	’s	’s	NNS	NNS	_	1	orphan	1:orphan	_
+7	growing	grow	VBG	VBG	_	1	orphan	1:orphan	_
+8	number	number	NN	NN	_	4	ARG2	4:ARG2|5:poss|7:ARG1	_
+9	of	of	IN	IN	_	1	orphan	1:orphan	_
+10	small	small	JJ	JJ	_	1	orphan	1:orphan	_
+11	video-viewing	view	JJ	JJ	_	1	orphan	1:orphan	_
+12	parlors	parlor	NNS	NNS	_	8	ARG1	8:ARG1|10:ARG1|11:compound	_
+13	to	to	TO	TO	_	1	orphan	1:orphan	_
+14	pay	pay	VB	VB	_	4	ARG3	13:ARG2	_
+15	movie	movie	NN	NN	_	1	orphan	1:orphan	_
+16	producers	producer	NNS	NNS	_	14	ARG2	14:ARG2|15:compound	_
+17	for	for	IN	IN	_	1	orphan	1:orphan	_
+18	showing	show	VBG	VBG	_	14	ARG4	17:ARG2	_
+19	their	their	PRP$	PRP$	_	1	orphan	1:orphan	_
+20	films	film	NNS	NNS	_	18	ARG2	18:ARG2|19:poss	_
+21	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020011
+# text = Saudi Arabia , for its part , has vowed to enact a copyright law compatible with international standards and to apply the law to computer software as well as to literary works , Mrs. Hills said .
+1	Saudi	_generic_proper_ne_	NNP	NNP	_	0	root	0:root	_
+2	Arabia	Arabia	NNP	NNP	_	1	compound	1:compound|4:ARG1|9:ARG1|11:ARG1|21:ARG1	_
+3	,	_	,	,	_	1	orphan	1:orphan	_
+4	for	for	IN	IN	_	1	orphan	1:orphan	_
+5	its	its	PRP$	PRP$	_	1	orphan	1:orphan	_
+6	part	part	NN	NN	_	4	ARG2	4:ARG2|5:poss	_
+7	,	_	,	,	_	1	orphan	1:orphan	_
+8	has	has	VBZ	VBZ	_	1	orphan	1:orphan	_
+9	vowed	vow	VBN	VBN	_	36	ARG2	36:ARG2	_
+10	to	to	TO	TO	_	1	orphan	1:orphan	_
+11	enact	enact	VB	VB	_	9	ARG2	9:ARG2	_
+12	a	a	DT	DT	_	1	orphan	1:orphan	_
+13	copyright	copyright	NN	NN	_	1	orphan	1:orphan	_
+14	law	law	NN	NN	_	11	ARG2	11:ARG2|12:BV|13:compound|15:ARG1	_
+15	compatible	compatible	JJ	JJ	_	1	orphan	_	_
+16	with	with	IN	IN	_	1	orphan	1:orphan	_
+17	international	international	JJ	JJ	_	1	orphan	1:orphan	_
+18	standards	standard	NNS	NNS	_	15	ARG2	16:ARG2|17:ARG1	_
+19	and	and	CC	CC	_	1	orphan	1:orphan	_
+20	to	to	TO	TO	_	1	orphan	1:orphan	_
+21	apply	apply	VB	VB	_	11	_and_c	_	_
+22	the	the	DT	DT	_	1	orphan	1:orphan	_
+23	law	law	NN	NN	_	21	ARG2	21:ARG2|22:BV|24:ARG1	_
+24	to	to	TO	TO	_	1	orphan	1:orphan	_
+25	computer	computer	NN	NN	_	1	orphan	1:orphan	_
+26	software	software	NN	NN	_	24	ARG2	21:ARG3|25:compound	_
+27	as	as+well+as	IN	IN	_	1	orphan	1:orphan	_
+28	well	as+well+as	RB	RB	_	1	orphan	1:orphan	_
+29	as	as+well+as	RB	RB	_	1	orphan	1:orphan	_
+30	to	to	TO	TO	_	24	_as+well+as_c	_	_
+31	literary	literary	JJ	JJ	_	1	orphan	1:orphan	_
+32	works	work	NNS	NNS	_	30	ARG2	30:ARG2|31:ARG1	_
+33	,	_	,	,	_	1	orphan	1:orphan	_
+34	Mrs.	Mrs.	NNP	NNP	_	1	orphan	1:orphan	_
+35	Hills	Hills	NNP	NNP	_	34	compound	34:compound|36:ARG1	_
+36	said	say	VBD	VBD	_	1	orphan	1:orphan	_
+37	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020012
+# text = These three countries are n’t completely off the hook , though .
+1	These	these	DT	DT	_	0	root	0:root	_
+2	three	three	CD	CD	_	1	orphan	1:orphan	_
+3	countries	country	NNS	NNS	_	1	BV	1:BV|2:ARG1|7:ARG1	_
+4	are	aren’t	VBP	VBP	_	5	neg	1:orphan	_
+5	n’t	aren’t	JJ	JJ	_	1	orphan	1:orphan	_
+6	completely	completely	RB	RB	_	1	orphan	1:orphan	_
+7	off	off	IN	IN	_	5	ARG1	5:neg|6:ARG1	_
+8	the	the	DT	DT	_	1	orphan	1:orphan	_
+9	hook	hook	NN	NN	_	7	ARG2	7:ARG2|8:BV	_
+10	,	_	,	,	_	1	orphan	1:orphan	_
+11	though	though	RB	RB	_	1	orphan	1:orphan	_
+12	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020013
+# text = They will remain on a lower-priority list that includes 17 other countries .
+1	They	they	PRP	PRP	_	3	ARG1	3:ARG1|4:ARG1	_
+2	will	will	MD	MD	_	0	root	0:root	_
+3	remain	remain	VB	VB	_	2	orphan	2:orphan	_
+4	on	on	IN	IN	_	3	ARG2	3:ARG2	_
+5	a	a	DT	DT	_	2	orphan	2:orphan	_
+6	lower-priority	priority	JJ	JJ	_	2	orphan	2:orphan	_
+7	list	list	NN	NN	_	4	ARG2	4:ARG2|5:BV|6:compound|9:ARG1	_
+8	that	that	WDT	WDT	_	2	orphan	2:orphan	_
+9	includes	include	VBZ	VBZ	_	2	orphan	2:orphan	_
+10	17	_generic_card_ne_	CD	CD	_	2	orphan	2:orphan	_
+11	other	other	JJ	JJ	_	2	orphan	2:orphan	_
+12	countries	country	NNS	NNS	_	9	ARG2	9:ARG2|10:ARG1|11:ARG1	_
+13	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20020014
+# text = Those countries – including Japan , Italy , Canada , Greece and Spain – are still of some concern to the U.S. but are deemed to pose less-serious problems for American patent and copyright owners than those on the “ priority ” list .
+1	Those	those	DT	DT	_	0	root	0:root	_
+2	countries	country	NNS	NNS	_	1	BV	1:BV|4:ARG1|15:ARG1|17:ARG1|25:ARG2|27:ARG1	_
+3	–	–	:	:	_	1	orphan	1:orphan	_
+4	including	include	VBG	VBG	_	1	orphan	1:orphan	_
+5	Japan	Japan	NNP	NNP	_	4	ARG2	4:ARG2	_
+6	,	_	,	,	_	1	orphan	1:orphan	_
+7	Italy	Italy	NNP	NNP	_	5	conj	5:conj	_
+8	,	_	,	,	_	1	orphan	1:orphan	_
+9	Canada	Canada	NNP	NNP	_	7	conj	5:conj|7:conj	_
+10	,	_	,	,	_	1	orphan	1:orphan	_
+11	Greece	Greece	NNP	NNP	_	9	conj	9:conj	_
+12	and	and	CC	CC	_	1	orphan	1:orphan	_
+13	Spain	Spain	NNP	NNP	_	11	_and_c	11:_and_c	_
+14	–	–	:	:	_	1	orphan	1:orphan	_
+15	are	are	VBP	VBP	_	1	orphan	1:orphan	_
+16	still	still	RB	RB	_	1	orphan	1:orphan	_
+17	of	of	IN	IN	_	1	orphan	1:orphan	_
+18	some	some	DT	DT	_	1	orphan	1:orphan	_
+19	concern	concern	NN	NN	_	17	ARG2	17:ARG2|18:BV|20:ARG1	_
+20	to	to	TO	TO	_	1	orphan	1:orphan	_
+21	the	the	DT	DT	_	1	orphan	1:orphan	_
+22	U.S.	U.S.	NNP	NNP	_	20	ARG2	20:ARG2|21:BV	_
+23	but	but	CC	CC	_	1	orphan	1:orphan	_
+24	are	are	VBP	VBP	_	1	orphan	1:orphan	_
+25	deemed	deem	VBN	VBN	_	17	_but_c	_	_
+26	to	to	TO	TO	_	1	orphan	1:orphan	_
+27	pose	pose	VB	VB	_	25	ARG3	25:ARG3	_
+28	less-serious	serious	JJ	JJ	_	1	orphan	1:orphan	_
+29	problems	problem	NNS	NNS	_	27	ARG2	27:ARG2|28:compound|30:ARG1	_
+30	for	for	IN	IN	_	1	orphan	1:orphan	_
+31	American	American	JJ	JJ	_	1	orphan	1:orphan	_
+32	patent	patent	NN	NN	_	1	orphan	1:orphan	_
+33	and	and	CC	CC	_	1	orphan	1:orphan	_
+34	copyright	copyright	NN	NN	_	32	_and_c	32:_and_c	_
+35	owners	owner	NNS	NNS	_	30	ARG2	30:ARG2|31:ARG1|32:compound	_
+36	than	than	IN	IN	_	1	orphan	1:orphan	_
+37	those	those	DT	DT	_	28	ARG2	38:ARG1	_
+38	on	on	IN	IN	_	1	orphan	1:orphan	_
+39	the	the	DT	DT	_	1	orphan	1:orphan	_
+40	“	_	``	``	_	1	orphan	1:orphan	_
+41	priority	priority	NN	NN	_	1	orphan	1:orphan	_
+42	”	_	''	''	_	1	orphan	1:orphan	_
+43	list	list	NN	NN	_	38	ARG2	38:ARG2|39:BV|41:compound	_
+44	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020016
+# text = “ What this tells us is that U.S. trade law is working , ” he said .
+1	“	_	``	``	_	0	root	0:root	_
+2	What	what	WP	WP	_	4	ARG2	4:ARG3	_
+3	this	this	DT	DT	_	4	ARG1	4:ARG1	_
+4	tells	tell	VBZ	VBZ	_	6	ARG1	_	_
+5	us	us	PRP	PRP	_	4	ARG3	4:ARG2	_
+6	is	is	VBZ	VBZ	_	16	ARG2	_	_
+7	that	that	DT	DT	_	1	orphan	1:orphan	_
+8	U.S.	U.S.	NNP	NNP	_	1	orphan	1:orphan	_
+9	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+10	law	law	NN	NN	_	8	compound	8:compound|9:compound|12:ARG1	_
+11	is	is	VBZ	VBZ	_	1	orphan	1:orphan	_
+12	working	work	VBG	VBG	_	6	ARG2	6:ARG2	_
+13	,	_	,	,	_	1	orphan	1:orphan	_
+14	”	_	''	''	_	1	orphan	1:orphan	_
+15	he	he	PRP	PRP	_	16	ARG1	16:ARG1	_
+16	said	say	VBD	VBD	_	1	orphan	1:orphan	_
+17	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020017
+# text = He said Mexico could be one of the next countries to be removed from the priority list because of its efforts to craft a new patent law .
+1	He	he	PRP	PRP	_	2	ARG1	2:ARG1	_
+2	said	say	VBD	VBD	_	0	root	0:root	_
+3	Mexico	Mexico	NNP	NNP	_	5	ARG1	5:ARG1	_
+4	could	could	MD	MD	_	2	ARG2	2:ARG2	_
+5	be	be	VB	VB	_	4	ARG1	4:ARG1|19:ARG1	_
+6	one	one	CD	CD	_	5	ARG2	5:ARG2	_
+7	of	of	IN	IN	_	2	orphan	2:orphan	_
+8	the	the	DT	DT	_	2	orphan	2:orphan	_
+9	next	next	JJ	JJ	_	2	orphan	2:orphan	_
+10	countries	country	NNS	NNS	_	6	part	6:part|8:BV|9:ARG1|13:ARG2	_
+11	to	to	TO	TO	_	2	orphan	2:orphan	_
+12	be	be	VB	VB	_	2	orphan	2:orphan	_
+13	removed	remove	VBN	VBN	_	19	ARG1	14:ARG1|19:ARG1	_
+14	from	from	IN	IN	_	13	ARG3	2:orphan	_
+15	the	the	DT	DT	_	2	orphan	2:orphan	_
+16	priority	priority	NN	NN	_	2	orphan	2:orphan	_
+17	list	list	NN	NN	_	14	ARG2	14:ARG2|15:BV|16:compound	_
+18	because	because+of	IN	IN	_	19	mwe	19:mwe	_
+19	of	because+of	IN	IN	_	2	orphan	2:orphan	_
+20	its	its	PRP$	PRP$	_	2	orphan	2:orphan	_
+21	efforts	effort	NNS	NNS	_	19	ARG2	19:ARG2|20:poss	_
+22	to	to	TO	TO	_	2	orphan	2:orphan	_
+23	craft	craft	VB	VB	_	2	orphan	21:ARG1	_
+24	a	a	DT	DT	_	2	orphan	2:orphan	_
+25	new	new	JJ	JJ	_	2	orphan	2:orphan	_
+26	patent	patent	NN	NN	_	2	orphan	2:orphan	_
+27	law	law	NN	NN	_	23	ARG2	23:ARG2|24:BV|25:ARG1|26:compound	_
+28	.	_	.	.	_	2	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20020018
+# text = Mrs. Hills said that the U.S. is still concerned about “ disturbing developments in Turkey and continuing slow progress in Malaysia . ”
+1	Mrs.	Mrs.	NNP	NNP	_	0	root	0:root	_
+2	Hills	Hills	NNP	NNP	_	1	compound	1:compound|3:ARG1	_
+3	said	say	VBD	VBD	_	1	orphan	1:orphan	_
+4	that	that	IN	IN	_	1	orphan	1:orphan	_
+5	the	the	DT	DT	_	1	orphan	1:orphan	_
+6	U.S.	U.S.	NNP	NNP	_	5	BV	5:BV|9:ARG1	_
+7	is	is	VBZ	VBZ	_	1	orphan	1:orphan	_
+8	still	still	RB	RB	_	1	orphan	1:orphan	_
+9	concerned	concerned	VBN	VBN	_	3	ARG2	3:ARG2|8:ARG1	_
+10	about	about	IN	IN	_	1	orphan	1:orphan	_
+11	“	_	``	``	_	1	orphan	1:orphan	_
+12	disturbing	disturbing	JJ	JJ	_	1	orphan	1:orphan	_
+13	developments	development	NNS	NNS	_	9	ARG2	9:ARG2|12:ARG1|14:ARG1	_
+14	in	in	IN	IN	_	1	orphan	1:orphan	_
+15	Turkey	Turkey	NNP	NNP	_	14	ARG2	14:ARG2	_
+16	and	and	CC	CC	_	1	orphan	1:orphan	_
+17	continuing	continue	VBG	VBG	_	1	orphan	1:orphan	_
+18	slow	slow	JJ	JJ	_	1	orphan	1:orphan	_
+19	progress	progress	NN	NN	_	13	_and_c	13:_and_c|17:ARG1|18:ARG1|20:ARG1	_
+20	in	in	IN	IN	_	1	orphan	1:orphan	_
+21	Malaysia	Malaysia	NNP	NNP	_	20	ARG2	20:ARG2	_
+22	.	_	.	.	_	1	orphan	1:orphan	_
+23	”	_	''	''	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020019
+# text = She did n’t elaborate , although earlier U.S. trade reports have complained of videocassette piracy in Malaysia and disregard for U.S. pharmaceutical patents in Turkey .
+1	She	she	PRP	PRP	_	4	ARG1	4:ARG1	_
+2	did	didn’t	VBD	VBD	_	3	neg	0:root	_
+3	n’t	didn’t	JJ	JJ	_	6	ARG1	6:ARG1	_
+4	elaborate	elaborate	VB	VB	_	3	ARG1	3:neg	_
+5	,	_	,	,	_	0	root	2:orphan	_
+6	although	although	IN	IN	_	5	orphan	2:orphan	_
+7	earlier	earlier	JJR	JJR	_	5	orphan	2:orphan	_
+8	U.S.	U.S.	NNP	NNP	_	5	orphan	2:orphan	_
+9	trade	trade	NN	NN	_	5	orphan	2:orphan	_
+10	reports	report	NNS	NNS	_	7	ARG1	7:ARG1|8:compound|9:compound|12:ARG1	_
+11	have	have	VBP	VBP	_	5	orphan	2:orphan	_
+12	complained	complain	VBN	VBN	_	6	ARG2	6:ARG2	_
+13	of	of	IN	IN	_	5	orphan	2:orphan	_
+14	videocassette	_generic_nn_	NN	NN	_	5	orphan	2:orphan	_
+15	piracy	_generic_nn_	NN	NN	_	12	ARG2	12:ARG2|14:compound|16:ARG1	_
+16	in	in	IN	IN	_	5	orphan	2:orphan	_
+17	Malaysia	Malaysia	NNP	NNP	_	16	ARG2	16:ARG2	_
+18	and	and	CC	CC	_	5	orphan	2:orphan	_
+19	disregard	disregard	NN	NN	_	15	_and_c	17:_and_c|20:ARG1	_
+20	for	for	IN	IN	_	5	orphan	2:orphan	_
+21	U.S.	U.S.	NNP	NNP	_	5	orphan	2:orphan	_
+22	pharmaceutical	pharmaceutical	JJ	JJ	_	5	orphan	2:orphan	_
+23	patents	patent	NNS	NNS	_	19	ARG1	20:ARG2|21:compound|22:ARG1|24:ARG1	_
+24	in	in	IN	IN	_	5	orphan	2:orphan	_
+25	Turkey	Turkey	NNP	NNP	_	24	ARG2	24:ARG2	_
+26	.	_	.	.	_	5	orphan	2:orphan	_
+
+# format = sdp
+# sent_id = 20020020
+# text = The 1988 trade act requires Mrs. Hills to issue another review of the performance of these countries by April 30 .
+1	The	the	DT	DT	_	0	root	0:root	_
+2	1988	_generic_year_ne_	CD	CD	_	1	orphan	1:orphan	_
+3	trade	trade	NN	NN	_	1	orphan	1:orphan	_
+4	act	act	NN	NN	_	1	BV	1:BV|2:compound|3:compound|5:ARG1	_
+5	requires	require	VBZ	VBZ	_	1	orphan	1:orphan	_
+6	Mrs.	Mrs.	NNP	NNP	_	1	orphan	1:orphan	_
+7	Hills	Hills	NNP	NNP	_	5	ARG2	5:ARG2|6:compound|9:ARG1	_
+8	to	to	TO	TO	_	1	orphan	1:orphan	_
+9	issue	issue	VB	VB	_	18	ARG1	5:ARG3|18:ARG1	_
+10	another	another	DT	DT	_	1	orphan	1:orphan	_
+11	review	review	NN	NN	_	9	ARG2	9:ARG2|10:BV	_
+12	of	of	IN	IN	_	1	orphan	1:orphan	_
+13	the	the	DT	DT	_	1	orphan	1:orphan	_
+14	performance	performance	NN	NN	_	11	ARG1	11:ARG1|13:BV|15:ARG1	_
+15	of	of	IN	IN	_	1	orphan	1:orphan	_
+16	these	these	DT	DT	_	1	orphan	1:orphan	_
+17	countries	country	NNS	NNS	_	15	ARG2	15:ARG2|16:BV	_
+18	by	by	IN	IN	_	1	orphan	1:orphan	_
+19	April	April	NNP	NNP	_	1	orphan	1:orphan	_
+20	30	_generic_dom_card_ne_	CD	CD	_	5	ARG3	1:orphan|18:ARG2|19:of	_
+21	.	_	.	.	_	1	orphan	1:orphan	_
+
+# format = sdp
+# sent_id = 20020021
+# text = So far , Mrs. Hills has n’t deemed any cases bad enough to merit an accelerated investigation under the so-called special 301 provision of the act .
+1	So	so	RB	RB	_	0	root	0:root	_
+2	far	far	RB	RB	_	1	ARG1	1:comp_so	_
+3	,	_	,	,	_	1	orphan	1:orphan	_
+4	Mrs.	Mrs.	NNP	NNP	_	1	orphan	1:orphan	_
+5	Hills	Hills	NNP	NNP	_	4	compound	4:compound|8:ARG1|14:ARG1	_
+6	has	hasn’t	VBZ	VBZ	_	7	neg	1:orphan	_
+7	n’t	hasn’t	RB	RB	_	1	orphan	1:than	_
+8	deemed	deem	VBN	VBN	_	2	ARG1	7:neg	_
+9	any	any	DT	DT	_	1	orphan	1:orphan	_
+10	cases	case	NNS	NNS	_	8	ARG2	8:ARG2|9:BV|11:ARG1	_
+11	bad	bad	JJ	JJ	_	8	ARG3	12:comp_enough	_
+12	enough	enough	RB	RB	_	1	orphan	1:orphan	_
+13	to	to	TO	TO	_	7	ARG1	_	_
+14	merit	merit	VB	VB	_	13	ARG2	13:ARG2	_
+15	an	an	DT	DT	_	1	orphan	1:orphan	_
+16	accelerated	accelerate	JJ	JJ	_	1	orphan	1:orphan	_
+17	investigation	investigation	NN	NN	_	14	ARG2	14:ARG2|15:BV|16:ARG2|18:ARG1	_
+18	under	under	IN	IN	_	1	orphan	1:orphan	_
+19	the	the	DT	DT	_	1	orphan	1:orphan	_
+20	so-called	so-+called	JJ	JJ	_	1	orphan	1:orphan	_
+21	special	special	JJ	JJ	_	1	orphan	1:orphan	_
+22	301	_generic_year_ne_	CD	CD	_	1	orphan	1:orphan	_
+23	provision	provision	NN	NN	_	18	ARG2	18:ARG2|19:BV|20:ARG1|21:ARG1|22:compound|24:ARG1	_
+24	of	of	IN	IN	_	1	orphan	1:orphan	_
+25	the	the	DT	DT	_	1	orphan	1:orphan	_
+26	act	act	NN	NN	_	24	ARG2	24:ARG2|25:BV	_
+27	.	_	.	.	_	1	orphan	1:orphan	_
+
