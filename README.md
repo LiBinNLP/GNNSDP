@@ -20,7 +20,7 @@ As a prerequisite, the following requirements should be satisfied:
 * [`transformers`](https://github.com/huggingface/transformers): >= 4.0
 
 
-### Training
+## Training
 
 To train a higher-order semantic dependency parser, you need to provide initial parsing result file (conll-u format),
 because the initial adjacency matrix of semantic dependency graph is needed to build graph neural networks. 
@@ -31,14 +31,14 @@ Some hyperparameters is configured in the file `hosdp.ini`
 $ python hosdp.py train -b -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
 ```
 
-### Evaluation
+## Evaluation
 
 To evaluate trained model, you need to run the following command.
 ```sh
 $ python hosdp.py evaluate -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
 ```
 
-### Prediction
+## Prediction
 To write predicted result in a output file, you need to run the following command. The output file path can be specified in `hosdp.py`. 
 ```sh
 $ python hosdp.py test -b -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
