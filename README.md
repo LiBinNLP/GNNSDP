@@ -38,7 +38,7 @@ To evaluate trained model, you need to run the following command.
 $ python hosdp.py evaluate -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
 ```
 
-## Prediction
+### Prediction
 To write predicted result in a output file, you need to run the following command. The output file path can be specified in `hosdp.py`. 
 ```sh
 $ python hosdp.py test -b -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
