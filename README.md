@@ -43,3 +43,20 @@ To write predicted result in a output file, you need to run the following comman
 ```sh
 $ python hosdp.py test -b -d 0 -p /HOSDP/output/trial/model -c /HOSDP/hosdp.ini
 ```
+
+## Citation
+If you use the code of this repository, please cite our paper:
+```
+@Article{app12084089,
+AUTHOR = {Li, Bin and Fan, Yunlong and Sataer, Yikemaiti and Gao, Zhiqiang and Gui, Yaocheng},
+TITLE = {Improving Semantic Dependency Parsing with Higher-Order Information Encoded by Graph Neural Networks},
+JOURNAL = {Applied Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {8},
+ARTICLE-NUMBER = {4089},
+URL = {https://www.mdpi.com/2076-3417/12/8/4089},
+ISSN = {2076-3417},
+DOI = {10.3390/app12084089}
+}
+```
