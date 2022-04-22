@@ -1,4 +1,4 @@
-# HOSDP
+# GNNSDP
 
 A higher-order semantic dependency parser using graph neural networks, implemented with graph convolutional networks and graph attention networks.
 HOSDP is a model extended biaffine parser. 
