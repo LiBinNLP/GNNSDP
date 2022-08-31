@@ -3,6 +3,8 @@
 A higher-order semantic dependency parser using graph neural networks, implemented with graph convolutional networks and graph attention networks.
 HOSDP is a model extended biaffine parser. 
 
+Code for the paper Improving semantic dependency parsing with higher-order information encoded by graph neural networks (Applied Sciences).
+
 ## Dataset
 We conduct experiment on SemEval 2015 Task 18 English dataset [`SemEval2015 Task 18`](https://alt.qcri.org/semeval2015/task18/). 
 Trial data has been provided in this repository, full dataset [`LDC2016T10`](https://catalog.ldc.upenn.edu/LDC2016T10) are available in LDC official site.
